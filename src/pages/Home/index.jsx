@@ -32,12 +32,12 @@ export const Home = () => {
     }, [])
     
 
-    document.title = 'Doutormultas | home'
+    document.title = 'Buscaveculos | Home'
 
     return (
       <>
         <header>
-          <h1><a href="/">doutormultas</a></h1>
+          <h1><a href="/">buscaveiculos</a></h1>
         </header>
 
         <section>

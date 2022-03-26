@@ -21,12 +21,12 @@ export const ModeloMoto = () => {
         })
     }, [])
 
-    document.title = 'Doutormultas | modelos'
+    document.title = 'Buscaveiculos | Modelos'
 
     return (
         <>
             <header>
-                <h1><a href="/">doutormultas</a></h1>
+                <h1><a href="/">buscaveiculos</a></h1>
             </header>
   
             <section>
