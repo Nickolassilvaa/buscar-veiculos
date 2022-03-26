@@ -1,0 +1,53 @@
+$primary: #308ac7;
+$secondary: #0b3a5e;
+$white: #f1f4f6;
+$destaque: #f4f4f4;
+$links: #2a5372;
+
+main {
+    width: 100%;
+    padding: 7em 0.5em;
+
+    .accordion {
+        border-radius: 5px;
+    }
+
+    .accordion-header {
+        background: $secondary;
+        border-radius: 5px;
+        h2 {
+            font-weight: 500;
+            font-size: 16pt;
+            margin: 0 !important;
+            color: $white;
+        }
+    }
+
+    .accordion-body {
+        padding: 1em;
+        max-height: 500px;
+        overflow-y: auto;
+
+        ul {
+            padding-left: 0;
+            li {
+                margin-bottom: 12px;
+                a {
+                    text-decoration: none;
+                    color: $links;
+                    font-size: 12pt;
+                }
+            }
+        }
+    }
+
+    .accordion-button {
+        background: $secondary;
+        border-radius: 5px;
+        &:focus{
+            background: none;
+            box-shadow: none;
+            border: none;
+        }
+    }
+}

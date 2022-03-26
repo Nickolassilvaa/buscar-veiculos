@@ -1,0 +1,33 @@
+$primary: #308ac7;
+$secondary: #0b3a5e;
+$white: #f1f4f6;
+$destaque: #f4f4f4;
+$links: #2a5372;
+
+#edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+    .Link {
+        text-decoration: none;
+        color: $secondary;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-top: 2em;
+    }
+    ul {
+        padding-left: 1em;
+        
+
+        li {
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: $links;
+            font-size: 12pt;
+            list-style-type: circle;
+            
+        }
+    }
+}
